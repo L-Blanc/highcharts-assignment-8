@@ -6,13 +6,13 @@ html{
 }
 body {
     font-family: 'Roboto Slab', "Lora", "Palatino","Serif";
-    font-size: 1.3rem;
+    font-size: 1.2em;
     color: #000;
     background:#FFD4B5;
     margin: 0;
   }
   .text{
-    margin: 1.5rem;
+    margin: 1.8rem;
   }
   h1{
     font-family: "Signika", "Montserrat", "Helvetica", "Sans-Serif";
@@ -23,17 +23,17 @@ body {
     font-family: "Signika", "Montserrat";
   }
 #Chart1{
-margin: 1.5rem;
+margin: 1.8rem;
 }
 #Chart2{
-margin: 1.5rem;
+  margin: 1.8rem;
 }
 a:link {
     color: #FFD4B5;
 }
 a:hover {
-    color: #806A5B;}
-}
+    color: #806A5B;
+  }
 a:visited {
   color: #448EB8;
 }
@@ -41,8 +41,8 @@ a:active {
   color: #806A5B;
 }
 @media screen and (max-width: 780px){
-  #Chart1{
-    padding: 1rem;
+  .text{
+    font-size: 1rem;
   }
 
 }
