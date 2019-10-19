@@ -1,0 +1,47 @@
+html{
+  box-sizing:border-box;
+}
+*{
+  box-sizing: inherit;
+}
+body {
+    font-family: 'Roboto Slab', "Lora", "Palatino","Serif";
+    font-size: 1.3rem;
+    color: #000;
+    background:#FFD4B5;
+    margin: 0;
+  }
+  .text{
+    margin: 1.5rem;
+  }
+  h1{
+    font-family: "Signika", "Montserrat", "Helvetica", "Sans-Serif";
+    text-align: center;
+  }
+  .byline{
+    text-align: center;
+    font-family: "Signika", "Montserrat";
+  }
+#Chart1{
+margin: 1.5rem;
+}
+#Chart2{
+margin: 1.5rem;
+}
+a:link {
+    color: #FFD4B5;
+}
+a:hover {
+    color: #806A5B;}
+}
+a:visited {
+  color: #448EB8;
+}
+a:active {
+  color: #806A5B;
+}
+@media screen and (max-width: 780px){
+  #Chart1{
+    padding: 1rem;
+  }
+}

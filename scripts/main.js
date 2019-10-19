@@ -1,4 +1,4 @@
-Highcharts.chart('Chart 1', {
+Highcharts.chart('Chart1', {
     chart: {
         type: 'column'
     },
@@ -79,4 +79,57 @@ Highcharts.chart('Chart 1', {
         data: [0, 0, 0]
 
     }]
+});
+
+Highcharts.chart('Chart2', {
+
+    title: {
+        text: 'Number of Reported Rapes in Alachua County 2009-2019'
+    },
+
+    subtitle: {
+        text: 'Source: Florida Department of Law Enforcemet Annual Crime Report'
+    },
+
+    yAxis: {
+        title: {
+            text: 'Number of Reported Rapes in Alachua County'
+        }
+    },
+    legend: {
+        layout: 'vertical',
+        align: 'right',
+        verticalAlign: 'middle'
+    },
+
+    plotOptions: {
+        series: {
+            label: {
+                connectorAllowed: false
+            },
+            pointStart: 2009
+        }
+    },
+
+    series: [{
+        name: 'Rape',
+        data: [191, 154, 156, 168, 114, 164, 183, 216, 249, 285
+]
+    }],
+
+    responsive: {
+        rules: [{
+            condition: {
+                maxWidth: 500
+            },
+            chartOptions: {
+                legend: {
+                    layout: 'horizontal',
+                    align: 'center',
+                    verticalAlign: 'bottom'
+                }
+            }
+        }]
+    }
+
 });
